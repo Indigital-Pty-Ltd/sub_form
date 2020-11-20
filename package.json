@@ -1,0 +1,17 @@
+{
+  "name": "challenge-submission",
+  "version": "1.0.0",
+  "description": "Use the @azure/storage-blob SDK version 12 to interact with Azure Blob storage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Matthew Heffernan",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/storage-blob": "^12.0.0",
+    "@types/dotenv": "^4.0.3",
+    "dotenv": "^6.0.0",
+    "uuid": "^8.3.1"
+  }
+}
