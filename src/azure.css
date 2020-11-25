@@ -1,0 +1,38 @@
+#file-input {
+    display: none;
+}
+
+.btn {
+    margin-left:10px;
+    margin-bottom: 1em;
+}
+
+#status {
+    height:200px; 
+    /* width: 593px;  */
+    width:100%;
+    overflow: scroll;
+    text-align: center;
+    margin-top:1em;
+    margin-bottom:1em;
+    border-style:solid;
+}
+.container {
+    text-align: center;
+}
+
+#file-list {
+    height:222px; 
+    width: 593px; 
+    overflow: scroll;
+}
+
+form {
+    /* border-style:solid; */
+    text-align: center;
+}
+
+#status {
+    text-align: center;
+
+}

@@ -2,17 +2,36 @@
   "name": "challenge-submission",
   "version": "1.0.0",
   "description": "Use the @azure/storage-blob SDK version 12 to interact with Azure Blob storage",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "proxy": "http://127.0.0.1:10000/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "author": "Matthew Heffernan",
   "license": "MIT",
   "dependencies": {
     "@azure/storage-blob": "^12.0.0",
     "@types/dotenv": "^4.0.3",
+    "bootstrap": "^4.5.3",
     "dotenv": "^6.0.0",
     "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
     "uuid": "^8.3.1"
   }
 }
